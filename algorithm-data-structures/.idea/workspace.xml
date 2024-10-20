@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0e9c156-e2d2-48a2-a697-ea0f07a3b5c0" name="Changes" comment="" />
+    <list default="true" id="f0e9c156-e2d2-48a2-a697-ea0f07a3b5c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linklist/D7DetectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linklist/D7IntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,56 +45,59 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2nNrDWxeYsjXUg0XocYYmIOXgxB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.D1BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D1PerfectSquare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D1RemoveDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D1SearchRange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D2BackspaceCompare.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D2MoveZeroes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D2RemoveElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.D2SortedSquares.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D3MinSubArrayLen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D3TotalFruit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D4GenerateMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D4MinWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D5SpiralOrder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D5SumOfIntervals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D6RemoveElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D6RemoveNthFromEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D6ReverseList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D6SwapPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.leetcode [:arrays.D1BinarySearch.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/heliannuuthus/code/leetcode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/heliannuuthus/code/leetcode/arrays/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.D1BinarySearch.executor": "Run",
+    "Application.D1PerfectSquare.executor": "Run",
+    "Application.D1RemoveDuplicates.executor": "Run",
+    "Application.D1SearchRange.executor": "Run",
+    "Application.D2BackspaceCompare.executor": "Run",
+    "Application.D2MoveZeroes.executor": "Run",
+    "Application.D2RemoveElement.executor": "Debug",
+    "Application.D2SortedSquares.executor": "Run",
+    "Application.D3MinSubArrayLen.executor": "Run",
+    "Application.D3TotalFruit.executor": "Run",
+    "Application.D4GenerateMatrix.executor": "Run",
+    "Application.D4MinWindow.executor": "Run",
+    "Application.D5SpiralOrder.executor": "Run",
+    "Application.D5SumOfIntervals.executor": "Run",
+    "Application.D6RemoveElements.executor": "Run",
+    "Application.D6RemoveNthFromEnd.executor": "Run",
+    "Application.D6ReverseList.executor": "Run",
+    "Application.D6SwapPairs.executor": "Run",
+    "Application.MyLinkedList.executor": "Run",
+    "Gradle.leetcode [:arrays.D1BinarySearch.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/heliannuuthus/code/learning-experience/algorithm-data-structures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/heliannuuthus/code/leetcode/arrays/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.D6RemoveNthFromEnd">
     <configuration name="D6MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linklist.D6MyLinkedList" />
@@ -169,8 +177,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -195,6 +203,8 @@
       <workItem from="1729335231252" duration="11332000" />
       <workItem from="1729390884789" duration="62000" />
       <workItem from="1729390952875" duration="457000" />
+      <workItem from="1729421563650" duration="4731000" />
+      <workItem from="1729430157390" duration="1572000" />
     </task>
     <servers />
   </component>
@@ -276,5 +286,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

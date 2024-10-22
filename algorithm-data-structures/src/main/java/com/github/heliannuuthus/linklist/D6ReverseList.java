@@ -3,7 +3,7 @@ package com.github.heliannuuthus.linklist;
 public class D6ReverseList {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().reverseList(ListNode.build(new int[]{1, 2, 3, 4, 5})));
+        System.out.println(new Solution().reverseList(ListNode.build(new int[] {1, 2, 3, 4, 5})));
     }
 
     static class Solution {
@@ -18,7 +18,7 @@ public class D6ReverseList {
         }
 
         public ListNode reverseList(ListNode head, ListNode dummy) {
-            if (head == null ||  head.next == null) {
+            if (head == null || head.next == null) {
                 dummy.next = head;
                 return dummy;
             }
@@ -26,7 +26,5 @@ public class D6ReverseList {
             current.next = head;
             return head;
         }
-
-
     }
 }

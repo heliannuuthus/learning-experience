@@ -8,7 +8,7 @@ public class D6MyLinkedList {
         myLinkedList.addAtTail(7);
         myLinkedList.addAtHead(9);
         myLinkedList.addAtTail(8);
-        myLinkedList.addAtHead(6);    // 链表变为 4->1->2->0->4
+        myLinkedList.addAtHead(6); // 链表变为 4->1->2->0->4
         myLinkedList.addAtHead(0);
         System.out.println(myLinkedList.get(5));
         myLinkedList.addAtHead(0);
@@ -16,6 +16,7 @@ public class D6MyLinkedList {
         System.out.println(myLinkedList.get(5));
         myLinkedList.addAtTail(4);
     }
+
     LinkedNode head;
     LinkedNode tail;
     int length;
@@ -83,7 +84,6 @@ public class D6MyLinkedList {
         }
         length--;
     }
-
 
     static class LinkedNode {
         int val;

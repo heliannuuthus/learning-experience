@@ -5,7 +5,9 @@ import java.util.*;
 public class D8Intersection {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution().intersection(new int[]{1, 2, 2, 1}, new int[]{2, 2})));
+        System.out.println(
+                Arrays.toString(
+                        new Solution().intersection(new int[] {1, 2, 2, 1}, new int[] {2, 2})));
     }
 
     static class Solution {

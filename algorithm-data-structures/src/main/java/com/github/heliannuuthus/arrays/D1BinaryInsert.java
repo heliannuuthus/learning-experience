@@ -1,9 +1,7 @@
 package com.github.heliannuuthus.arrays;
 
 public class D1BinaryInsert {
-    public static void main(String[] args) {
-
-    }
+    public static void main(String[] args) {}
 
     class Solution {
         public int searchInsert(int[] nums, int target) {
@@ -22,5 +20,4 @@ public class D1BinaryInsert {
             return right + 1;
         }
     }
-
 }

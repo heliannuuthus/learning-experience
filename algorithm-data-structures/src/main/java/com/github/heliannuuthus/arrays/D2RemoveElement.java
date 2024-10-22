@@ -3,8 +3,7 @@ package com.github.heliannuuthus.arrays;
 public class D2RemoveElement {
     public static void main(String[] args) {
 
-        System.out.println(new Solution().removeElement(new int[]{0,1,2,2,3,0,4,2}, 2));
-
+        System.out.println(new Solution().removeElement(new int[] {0, 1, 2, 2, 3, 0, 4, 2}, 2));
     }
 
     static class Solution {
@@ -12,7 +11,7 @@ public class D2RemoveElement {
             int i = 0, j = 0;
             while (i < nums.length && j < nums.length) {
                 while (j < nums.length && nums[j] == val) {
-                   j++;
+                    j++;
                 }
                 if (j == nums.length) {
                     break;

@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class D2SortedSquares {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution().sortedSquares(new int[]{-4, -1, 0, 3, 10})));
+        System.out.println(
+                Arrays.toString(new Solution().sortedSquares(new int[] {-4, -1, 0, 3, 10})));
     }
 
     static class Solution {

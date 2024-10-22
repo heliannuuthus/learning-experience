@@ -38,15 +38,15 @@ public class D2BackspaceCompare {
                     if (s.charAt(i) != t.charAt(j)) {
                         return false;
                     }
-                } else  { // 如果 i > 0 或者 j > 0 表示一个已经遍历完成，另一个还未遍历完成，长度不相同
+                } else { // 如果 i > 0 或者 j > 0 表示一个已经遍历完成，另一个还未遍历完成，长度不相同
                     if (i >= 0 || j >= 0) {
                         return false;
                     }
                 }
-                j--;i--;
+                j--;
+                i--;
             }
             return true;
         }
-
     }
 }

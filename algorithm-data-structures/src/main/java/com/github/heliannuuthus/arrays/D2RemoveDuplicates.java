@@ -2,7 +2,7 @@ package com.github.heliannuuthus.arrays;
 
 public class D2RemoveDuplicates {
     public static void main(String[] args) {
-        System.out.println(new Solution().removeDuplicates(new int[]{1, 2, 3,4, 5}));
+        System.out.println(new Solution().removeDuplicates(new int[] {1, 2, 3, 4, 5}));
     }
 
     static class Solution {

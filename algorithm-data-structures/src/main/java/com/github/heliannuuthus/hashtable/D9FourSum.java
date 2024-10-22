@@ -7,7 +7,7 @@ import java.util.List;
 public class D9FourSum {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().fourSum(new int[]{1, 1, 1, 1, 1}, 4));
+        System.out.println(new Solution().fourSum(new int[] {1, 1, 1, 1, 1}, 4));
     }
 
     static class Solution {
@@ -20,7 +20,8 @@ public class D9FourSum {
                     if (j > i + 1 && nums[j] == nums[j - 1]) continue;
                     int k = j + 1, m = nums.length - 1;
                     while (k < m) {
-                        long sum = (long) nums[i] + (long) nums[j] + (long) nums[k] + (long) nums[m];
+                        long sum =
+                                (long) nums[i] + (long) nums[j] + (long) nums[k] + (long) nums[m];
                         if (sum > target) {
                             m--;
                         } else if (sum < target) {

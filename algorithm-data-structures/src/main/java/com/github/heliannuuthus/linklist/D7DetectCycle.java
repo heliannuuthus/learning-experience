@@ -1,11 +1,9 @@
 package com.github.heliannuuthus.linklist;
 
 public class D7DetectCycle {
-    public static void main(String[] args) {
+    public static void main(String[] args) {}
 
-    }
-
-   static class Solution {
+    static class Solution {
         public ListNode detectCycle(ListNode head) {
             ListNode slow = head, fast = head;
             while (fast != null && fast.next != null) {
@@ -20,8 +18,7 @@ public class D7DetectCycle {
                     return ptr;
                 }
             }
-        return null;
+            return null;
         }
     }
-
 }

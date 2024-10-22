@@ -7,12 +7,12 @@ public class D1PerfectSquare {
 
     static class Solution {
         public boolean isPerfectSquare(int num) {
-            int left = 0 , right = num;
+            int left = 0, right = num;
             while (left <= right) {
                 int mid = left + (right - left) / 2;
-                if ((long)mid * mid == num) {
+                if ((long) mid * mid == num) {
                     return true;
-                } else if ((long)mid * mid < num) {
+                } else if ((long) mid * mid < num) {
                     left = mid + 1;
                 } else {
                     right = mid - 1;

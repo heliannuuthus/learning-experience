@@ -2,7 +2,7 @@ package com.github.heliannuuthus.linklist;
 
 public class D6SwapPairs {
     public static void main(String[] args) {
-        System.out.println(new Solution().swapPairs(ListNode.build(new int[]{})));
+        System.out.println(new Solution().swapPairs(ListNode.build(new int[] {})));
     }
 
     static class Solution {

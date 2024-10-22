@@ -3,9 +3,11 @@ package com.github.heliannuuthus.linklist;
 public class D7IntersectionNode {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().getIntersectionNode(
-                ListNode.build(new int[]{4, 1, 8, 4, 5}),
-                ListNode.build(new int[]{5, 0, 1, 8, 4, 5})));
+        System.out.println(
+                new Solution()
+                        .getIntersectionNode(
+                                ListNode.build(new int[] {4, 1, 8, 4, 5}),
+                                ListNode.build(new int[] {5, 0, 1, 8, 4, 5})));
     }
 
     static class Solution {
@@ -44,7 +46,5 @@ public class D7IntersectionNode {
 
             return headA;
         }
-
     }
-
 }

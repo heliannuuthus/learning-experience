@@ -5,9 +5,14 @@ import java.util.Map;
 
 public class D8FourSumCount {
 
-
     public static void main(String[] args) {
-        System.out.println(new Solution().fourSumCount(new int[]{-1, 1}, new int[]{-1, -1}, new int[]{-1, 1}, new int[]{-1, 1}));
+        System.out.println(
+                new Solution()
+                        .fourSumCount(
+                                new int[] {-1, 1},
+                                new int[] {-1, -1},
+                                new int[] {-1, 1},
+                                new int[] {-1, 1}));
     }
 
     static class Solution {
@@ -24,8 +29,10 @@ public class D8FourSumCount {
                     secondSum.compute(j + value, (k, v) -> v == null ? 1 : v + 1);
                 }
             }
-            return firstSum.keySet().stream().filter(secondSum::containsKey).mapToInt(key -> firstSum.get(key) * secondSum.get(key)).sum();
+            return firstSum.keySet().stream()
+                    .filter(secondSum::containsKey)
+                    .mapToInt(key -> firstSum.get(key) * secondSum.get(key))
+                    .sum();
         }
     }
 }
-

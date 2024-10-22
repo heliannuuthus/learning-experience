@@ -25,6 +25,7 @@ public class D6RemoveElements {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Solution().removeElements(ListNode.build(new int[]{1, 2, 2, 1}), 2));
+        System.out.println(
+                new Solution().removeElements(ListNode.build(new int[] {1, 2, 2, 1}), 2));
     }
 }

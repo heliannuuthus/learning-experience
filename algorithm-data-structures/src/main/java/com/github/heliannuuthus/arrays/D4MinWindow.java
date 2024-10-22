@@ -9,7 +9,7 @@ public class D4MinWindow {
 
     static class Solution {
         public String minWindow(String s, String t) {
-            int[] letters = new int[58], idxs = new int[]{0, s.length() + 1};
+            int[] letters = new int[58], idxs = new int[] {0, s.length() + 1};
             Arrays.fill(letters, Integer.MAX_VALUE);
             int i = 0, length = 0;
             for (char c : t.toCharArray()) {
@@ -26,7 +26,7 @@ public class D4MinWindow {
                     letters[jIdx]--;
                 }
 
-                if (letters[jIdx] ==0) {
+                if (letters[jIdx] == 0) {
                     length--;
                 }
 

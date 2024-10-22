@@ -3,7 +3,7 @@ package com.github.heliannuuthus.arrays;
 public class D3MinSubArrayLen {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().minSubArrayLen(7, new int[]{2, 3, 1, 2, 4, 3}));
+        System.out.println(new Solution().minSubArrayLen(7, new int[] {2, 3, 1, 2, 4, 3}));
     }
 
     static class Solution {

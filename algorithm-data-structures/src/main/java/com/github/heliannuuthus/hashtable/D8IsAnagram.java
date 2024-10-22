@@ -6,7 +6,6 @@ public class D8IsAnagram {
         System.out.println(new Solution().isAnagram("anagram", "nagaram"));
     }
 
-
     static class Solution {
         public boolean isAnagram(String s, String t) {
             int[] chars = new int[26];
@@ -23,7 +22,7 @@ public class D8IsAnagram {
                     length--;
                 }
                 if (chars[c - 'a'] < 0) {
-                     return false;
+                    return false;
                 }
             }
             return length == 0;

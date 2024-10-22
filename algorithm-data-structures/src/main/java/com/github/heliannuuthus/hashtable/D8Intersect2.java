@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class D8Intersect2 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution().intersect(new int[]{1, 2, 2, 1}, new int[]{2, 2})));
+        System.out.println(
+                Arrays.toString(
+                        new Solution().intersect(new int[] {1, 2, 2, 1}, new int[] {2, 2})));
     }
 
     static class Solution {

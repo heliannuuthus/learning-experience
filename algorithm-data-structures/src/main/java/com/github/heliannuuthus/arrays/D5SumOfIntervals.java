@@ -21,5 +21,4 @@ public class D5SumOfIntervals {
         }
         scanner.close();
     }
-
 }

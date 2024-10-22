@@ -3,7 +3,7 @@ package com.github.heliannuuthus.arrays;
 public class D1BinarySearch {
 
     public static void main(String[] args) {
-        System.out.println(new Solution1().search(new int[]{-1, 0, 3, 5, 9, 12}, 9));
+        System.out.println(new Solution1().search(new int[] {-1, 0, 3, 5, 9, 12}, 9));
     }
 
     // binary search method2
@@ -41,7 +41,6 @@ public class D1BinarySearch {
                 } else {
                     left = middle;
                 }
-
             }
             return -1;
         }

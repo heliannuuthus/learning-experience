@@ -2,7 +2,7 @@ package com.github.heliannuuthus.arrays;
 
 public class D3TotalFruit {
     public static void main(String[] args) {
-        System.out.println(new Solution().totalFruit(new int[]{3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4}));
+        System.out.println(new Solution().totalFruit(new int[] {3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4}));
     }
 
     static class Solution {

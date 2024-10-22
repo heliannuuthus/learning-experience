@@ -4,8 +4,7 @@ public class ListNode {
     int val;
     ListNode next;
 
-    ListNode() {
-    }
+    ListNode() {}
 
     ListNode(int val) {
         this.val = val;
@@ -26,7 +25,6 @@ public class ListNode {
         }
         return new ListNode(nums[idx], chain(idx + 1, nums));
     }
-
 
     @Override
     public String toString() {

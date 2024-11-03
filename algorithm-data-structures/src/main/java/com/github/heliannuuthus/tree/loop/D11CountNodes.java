@@ -1,4 +1,6 @@
-package com.github.heliannuuthus.tree;
+package com.github.heliannuuthus.tree.loop;
+
+import com.github.heliannuuthus.tree.TreeNode;
 
 public class D11CountNodes {
     public static void main(String[] args) {

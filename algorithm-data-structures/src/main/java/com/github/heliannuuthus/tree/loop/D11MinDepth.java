@@ -1,5 +1,6 @@
-package com.github.heliannuuthus.tree;
+package com.github.heliannuuthus.tree.loop;
 
+import com.github.heliannuuthus.tree.TreeNode;
 import java.util.Deque;
 import java.util.LinkedList;
 

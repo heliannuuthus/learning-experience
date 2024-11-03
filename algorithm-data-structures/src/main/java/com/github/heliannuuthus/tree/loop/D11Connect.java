@@ -1,28 +1,30 @@
-package com.github.heliannuuthus.tree;
+package com.github.heliannuuthus.tree.loop;
 
+import com.github.heliannuuthus.tree.Node;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class D11MaxDepth {
+public class D11Connect {
     public static void main(String[] args) {
-        System.out.println(new Solution().maxDepth(TreeNode.build(new Integer[] {1, null, 2})));
+        System.out.println(new Solution().connect(Node.build(new Integer[] {1, 2, 3, 4, 5, 6, 7})));
     }
 
     static class Solution {
-        public int maxDepth(TreeNode root) {
+        public Node connect(Node root) {
             if (root == null) {
-                return 0;
+                return null;
             }
-            int layer = 0;
-            Deque<TreeNode> stack = new ArrayDeque<>();
-            stack.push(root);
+            Deque<Node> stack = new ArrayDeque<>();
+            stack.addLast(root);
             while (!stack.isEmpty()) {
                 int size = stack.size();
                 while (size-- > 0) {
+                    Node node = stack.removeFirst();
                     if (size == 0) {
-                        layer++;
+                        node.next = null;
+                    } else {
+                        node.next = stack.peekFirst();
                     }
-                    TreeNode node = stack.removeFirst();
                     if (node.left != null) {
                         stack.addLast(node.left);
                     }
@@ -31,7 +33,7 @@ public class D11MaxDepth {
                     }
                 }
             }
-            return layer;
+            return root;
         }
     }
 }

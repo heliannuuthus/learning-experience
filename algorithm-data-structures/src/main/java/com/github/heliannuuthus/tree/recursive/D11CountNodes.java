@@ -12,20 +12,19 @@ public class D11CountNodes {
             if (root == null) {
                 return 0;
             }
-            TreeNode temp = root;
-            int leftDepth = 0, rightDepth = 0;
-            while (temp.left != null) {
-                temp = temp.left;
+            int leftDepth = 1, rightDepth = 1;
+            TreeNode tmp = root.left;
+            while (tmp != null) {
+                tmp = tmp.left;
                 leftDepth++;
             }
-            temp = root;
-            while (temp.right != null) {
-                temp = temp.right;
+            tmp = root.right;
+            while (tmp != null) {
+                tmp = tmp.right;
                 rightDepth++;
             }
-
             if (leftDepth == rightDepth) {
-                return (2 << leftDepth) - 1;
+                return (int) (Math.pow(2, leftDepth) - 1);
             }
             return countNodes(root.left) + countNodes(root.right) + 1;
         }

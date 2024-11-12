@@ -1,8 +1,6 @@
 package com.github.heliannuuthus.tree.recursive;
 
 import com.github.heliannuuthus.tree.TreeNode;
-import java.util.ArrayDeque;
-import java.util.Deque;
 
 public class D11InvertTree {
 
@@ -16,23 +14,11 @@ public class D11InvertTree {
             if (root == null) {
                 return null;
             }
-            Deque<TreeNode> stack = new ArrayDeque<>();
-            stack.push(root);
-            while (!stack.isEmpty()) {
-                int size = stack.size();
-                while (size-- > 0) {
-                    TreeNode node = stack.pop();
-                    if (node.left != null) {
-                        stack.push(node.left);
-                    }
-                    if (node.right != null) {
-                        stack.push(node.right);
-                    }
-                    TreeNode tmp = node.left;
-                    node.left = node.right;
-                    node.right = tmp;
-                }
-            }
+            TreeNode tmp = root.left;
+            root.left = root.right;
+            root.right = tmp;
+            invertTree(root.left);
+            invertTree(root.right);
             return root;
         }
     }

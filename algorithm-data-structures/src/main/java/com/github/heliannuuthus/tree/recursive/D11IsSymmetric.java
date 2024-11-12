@@ -1,9 +1,6 @@
 package com.github.heliannuuthus.tree.recursive;
 
 import com.github.heliannuuthus.tree.TreeNode;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Objects;
 
 public class D11IsSymmetric {
 
@@ -14,43 +11,23 @@ public class D11IsSymmetric {
 
     static class Solution {
         public boolean isSymmetric(TreeNode root) {
-            boolean isSymmetric = true;
-            if (root == null) {
-                return isSymmetric;
+            return compare(root.left, root.right);
+        }
+
+        private boolean compare(TreeNode left, TreeNode right) {
+            if (left == null && right == null) {
+                return true;
+            } else if (left != null && right == null) {
+                return false;
+            } else if (left == null) {
+                return false;
+            } else if (left.val != right.val) {
+                return false;
+            } else {
+                boolean outside = compare(left.left, right.right);
+                boolean inside = compare(left.right, right.left);
+                return outside && inside;
             }
-            Deque<TreeNode> stack = new LinkedList<>();
-            stack.push(root);
-            while (!stack.isEmpty()) {
-                int size = stack.size();
-                Deque<TreeNode> temp = new LinkedList<>();
-                while (size-- > 0) {
-                    TreeNode node = stack.pop();
-                    temp.push(node.left);
-                    temp.push(node.right);
-                    if (node.left != null) {
-                        stack.addLast(node.left);
-                    }
-                    if (node.right != null) {
-                        stack.addLast(node.right);
-                    }
-                }
-                isSymmetric = temp.isEmpty();
-                while (!temp.isEmpty()) {
-                    TreeNode left = temp.removeFirst();
-                    TreeNode right = temp.removeLast();
-                    if (Objects.isNull(left) && Objects.isNull(right)) {
-                        isSymmetric = true;
-                    } else if (Objects.nonNull(left) && Objects.nonNull(right)) {
-                        isSymmetric = left.val == right.val;
-                    } else {
-                        isSymmetric = false;
-                    }
-                    if (!isSymmetric) {
-                        return isSymmetric;
-                    }
-                }
-            }
-            return isSymmetric;
         }
     }
 }

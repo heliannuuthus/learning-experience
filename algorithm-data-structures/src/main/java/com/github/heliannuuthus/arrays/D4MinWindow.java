@@ -7,7 +7,7 @@ public class D4MinWindow {
         System.out.println(new Solution().minWindow("cabwefgewcwaefgcf", "cae"));
     }
 
-    static class Solution {
+    private static class Solution {
         public String minWindow(String s, String t) {
             int[] letters = new int[58], idxs = new int[] {0, s.length() + 1};
             Arrays.fill(letters, Integer.MAX_VALUE);

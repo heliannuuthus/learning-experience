@@ -8,7 +8,7 @@ public class D8FindAnagrams {
         System.out.println(new Solution().findAnagrams("abab", "ab"));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> findAnagrams(String s, String p) {
             int[] pCount = new int[26];
             int[] sCount = new int[26];

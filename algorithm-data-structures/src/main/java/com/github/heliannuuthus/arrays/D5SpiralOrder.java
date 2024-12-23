@@ -15,7 +15,7 @@ public class D5SpiralOrder {
                                 }));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> spiralOrder(int[][] matrix) {
             List<Integer> results = new ArrayList<>();
             int t = 0,

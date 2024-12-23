@@ -8,7 +8,7 @@ public class D8IsHappy {
         System.out.println(new Solution().isHappy(19));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean isHappy(int n) {
             HashSet<Integer> insetSet = new HashSet<>();
             while (true) {

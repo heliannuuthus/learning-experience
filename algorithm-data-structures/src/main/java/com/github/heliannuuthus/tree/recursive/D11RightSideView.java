@@ -11,7 +11,7 @@ public class D11RightSideView {
                         .rightSideView(TreeNode.build(new Integer[] {1, 2, 3, null, 5, null, 4})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> rightSideView(TreeNode root) {
             List<Integer> result = new LinkedList<>();
             bfs(root, 0, result);

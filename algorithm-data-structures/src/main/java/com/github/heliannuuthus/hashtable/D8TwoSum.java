@@ -9,7 +9,7 @@ public class D8TwoSum {
         System.out.println(Arrays.toString(new Solution().twoSum(new int[] {2, 7, 11, 15}, 9)));
     }
 
-    static class Solution {
+    private static class Solution {
         public int[] twoSum(int[] nums, int target) {
             Map<Integer, Integer> numSet = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {

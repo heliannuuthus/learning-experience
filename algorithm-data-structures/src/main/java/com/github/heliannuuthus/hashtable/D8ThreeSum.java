@@ -9,7 +9,7 @@ public class D8ThreeSum {
         System.out.println(new Solution().threeSum(new int[] {-1, 0, 1, 2, -1, -4}));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> threeSum(int[] nums) {
             if (nums.length < 3) return null;
             Arrays.sort(nums);

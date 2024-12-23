@@ -5,7 +5,7 @@ public class D9RepeatedSubstringPattern {
         System.out.println(new Solution().repeatedSubstringPattern("abcabc"));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean repeatedSubstringPattern(String s) {
             char[] chars = s.toCharArray();
             int[] lps = new int[s.length()];

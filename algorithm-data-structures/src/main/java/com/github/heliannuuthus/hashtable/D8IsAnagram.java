@@ -6,7 +6,7 @@ public class D8IsAnagram {
         System.out.println(new Solution().isAnagram("anagram", "nagaram"));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean isAnagram(String s, String t) {
             int[] chars = new int[26];
             int length = 0;

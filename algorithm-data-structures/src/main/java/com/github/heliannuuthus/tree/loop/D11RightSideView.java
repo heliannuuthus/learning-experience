@@ -11,7 +11,7 @@ public class D11RightSideView {
                 new Solution().rightSideView(TreeNode.build(new Integer[] {1, null, 3})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> rightSideView(TreeNode root) {
             Deque<TreeNode> stack = new LinkedList<>();
             List<Integer> result = new LinkedList<>();

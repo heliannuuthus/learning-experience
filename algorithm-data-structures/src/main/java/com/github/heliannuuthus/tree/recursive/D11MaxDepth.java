@@ -9,7 +9,7 @@ public class D11MaxDepth {
                         .maxDepth(TreeNode.build(new Integer[] {3, 9, 20, null, null, 15, 7})));
     }
 
-    static class Solution {
+    private static class Solution {
         public int maxDepth(TreeNode root) {
             return dfs(root, 0);
         }

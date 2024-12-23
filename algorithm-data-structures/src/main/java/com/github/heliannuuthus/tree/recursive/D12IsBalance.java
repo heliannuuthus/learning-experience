@@ -10,7 +10,7 @@ public class D12IsBalance {
                         .isBalanced(TreeNode.build(new Integer[] {3, 9, 20, null, null, 15, 7})));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean isBalanced(TreeNode root) {
             if (root == null) {
                 return true;

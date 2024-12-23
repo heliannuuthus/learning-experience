@@ -5,7 +5,7 @@ public class D6SwapPairs {
         System.out.println(new Solution().swapPairs(ListNode.build(new int[] {})));
     }
 
-    static class Solution {
+    private static class Solution {
         public ListNode swapPairs(ListNode head) {
             if (head == null || head.next == null) {
                 return head;

@@ -5,7 +5,7 @@ import com.github.heliannuuthus.tree.TreeNode;
 public class D16InsertIntoBST {
     public static void main(String[] args) {}
 
-    static class Solution {
+    private static class Solution {
         public TreeNode insertIntoBST(TreeNode root, int val) {
             if (root == null) {
                 return new TreeNode(val);

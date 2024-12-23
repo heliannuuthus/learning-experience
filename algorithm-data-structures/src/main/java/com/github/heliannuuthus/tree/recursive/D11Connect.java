@@ -9,7 +9,7 @@ public class D11Connect {
         System.out.println(new Solution().connect(Node.build(new Integer[] {1, 2, 3, 4, 5, 6, 7})));
     }
 
-    static class Solution {
+    private static class Solution {
         public Node connect(Node root) {
             List<Node> last = new ArrayList<>();
             bfs(root, 0, last);

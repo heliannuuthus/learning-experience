@@ -9,7 +9,7 @@ public class D12MaxDepth {
                         .maxDepth(MultiNode.build(new Integer[] {1, null, 3, 2, 4, null, 5, 6})));
     }
 
-    static class Solution {
+    private static class Solution {
         public int maxDepth(MultiNode root) {
             if (root == null) {
                 return 0;

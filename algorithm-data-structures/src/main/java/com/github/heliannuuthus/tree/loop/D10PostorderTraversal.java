@@ -13,7 +13,7 @@ public class D10PostorderTraversal {
                                 TreeNode.build(new Integer[] {1, null, 2, null, null, 3, null})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> postorderTraversal(TreeNode root) {
             TreeNode curr = root, last = null;
             Stack<TreeNode> stack = new Stack<>();

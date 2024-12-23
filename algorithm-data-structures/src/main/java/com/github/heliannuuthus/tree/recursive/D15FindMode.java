@@ -16,7 +16,7 @@ public class D15FindMode {
                                                 new Integer[] {1, null, 2, null, null, 2}))));
     }
 
-    static class Solution {
+    private static class Solution {
         TreeNode pre = null;
         int count = 1, maxCount = Integer.MIN_VALUE;
         List<Integer> result = new ArrayList<>();

@@ -9,7 +9,7 @@ public class D9TopKFrequent {
                 Arrays.toString(new Solution().topKFrequent(new int[] {1, 1, 1, 2, 2, 3}, 2)));
     }
 
-    static class Solution {
+    private static class Solution {
         public int[] topKFrequent(int[] nums, int k) {
             HashMap<Integer, Integer> heap = new HashMap<>();
             for (int num : nums) {

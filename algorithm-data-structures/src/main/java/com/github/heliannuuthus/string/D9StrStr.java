@@ -5,7 +5,7 @@ public class D9StrStr {
         System.out.println(new Solution().strStr("a", "ab"));
     }
 
-    static class Solution {
+    private static class Solution {
         public int strStr(String haystack, String needle) {
             char[] source = haystack.toCharArray();
             char[] target = needle.toCharArray();

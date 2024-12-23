@@ -5,7 +5,7 @@ import com.github.heliannuuthus.tree.TreeNode;
 public class D12MinDepth {
     public static void main(String[] args) {}
 
-    static class Solution {
+    private static class Solution {
         public int minDepth(TreeNode root) {
             if (root == null) {
                 return 0;

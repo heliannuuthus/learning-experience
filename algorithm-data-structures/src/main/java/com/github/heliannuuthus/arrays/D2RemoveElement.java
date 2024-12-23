@@ -6,7 +6,7 @@ public class D2RemoveElement {
         System.out.println(new Solution().removeElement(new int[] {0, 1, 2, 2, 3, 0, 4, 2}, 2));
     }
 
-    static class Solution {
+    private static class Solution {
         public int removeElement(int[] nums, int val) {
             int i = 0, j = 0;
             while (i < nums.length && j < nums.length) {

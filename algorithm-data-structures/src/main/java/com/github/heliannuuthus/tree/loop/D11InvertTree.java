@@ -11,7 +11,7 @@ public class D11InvertTree {
                 new Solution().invertTree(TreeNode.build(new Integer[] {4, 2, 7, 1, 3, 6, 9})));
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode invertTree(TreeNode root) {
             if (root == null) {
                 return null;

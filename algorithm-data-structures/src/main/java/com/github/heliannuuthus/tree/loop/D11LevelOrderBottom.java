@@ -14,7 +14,7 @@ public class D11LevelOrderBottom {
                                 TreeNode.build(new Integer[] {3, 9, 20, null, null, 15, 7})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> levelOrderBottom(TreeNode root) {
             Deque<TreeNode> stack = new LinkedList<>();
             List<List<Integer>> tmp = new ArrayList<>();

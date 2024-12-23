@@ -6,7 +6,7 @@ public class D6ReverseList {
         System.out.println(new Solution().reverseList(ListNode.build(new int[] {1, 2, 3, 4, 5})));
     }
 
-    static class Solution {
+    private static class Solution {
         public ListNode reverseList(ListNode head) {
             ListNode dummy = new ListNode();
             ListNode listNode = reverseList(head, dummy);

@@ -9,7 +9,7 @@ public class D2MoveZeroes {
         System.out.println(Arrays.toString(nums));
     }
 
-    static class Solution {
+    private static class Solution {
         public void moveZeroes(int[] nums) {
             int i = 0, j = i;
             while (i < nums.length && j < nums.length) {

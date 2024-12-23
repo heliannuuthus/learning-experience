@@ -9,7 +9,7 @@ public class D8Intersect2 {
                         new Solution().intersect(new int[] {1, 2, 2, 1}, new int[] {2, 2})));
     }
 
-    static class Solution {
+    private static class Solution {
         public int[] intersect(int[] nums1, int[] nums2) {
             int[] numSet1 = new int[1001];
             int[] numSet2 = new int[1001];

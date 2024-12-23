@@ -7,7 +7,7 @@ public class D14ConstructMaximumBinaryTree {
         System.out.println(new Solution().constructMaximumBinaryTree(new int[] {3, 2, 1, 6, 0, 5}));
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode constructMaximumBinaryTree(int[] nums) {
             return split(nums, 0, nums.length);
         }

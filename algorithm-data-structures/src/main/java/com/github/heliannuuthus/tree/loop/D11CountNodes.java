@@ -7,7 +7,7 @@ public class D11CountNodes {
         System.out.println(new Solution().countNodes(TreeNode.build(new Integer[] {1})));
     }
 
-    static class Solution {
+    private static class Solution {
         public int countNodes(TreeNode root) {
             if (root == null) {
                 return 0;

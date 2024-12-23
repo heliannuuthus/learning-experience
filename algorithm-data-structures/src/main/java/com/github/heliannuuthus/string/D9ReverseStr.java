@@ -5,7 +5,7 @@ public class D9ReverseStr {
         System.out.println(new Solution().reverseStr("abcdabcdcd", 4));
     }
 
-    static class Solution {
+    private static class Solution {
         public String reverseStr(String s, int k) {
             char[] sArrays = s.toCharArray();
 

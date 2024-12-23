@@ -14,7 +14,7 @@ public class D11UniformTraversal {
                                 TreeNode.build(new Integer[] {1, null, 2, null, null, 3, null})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> preOrderTraversal(TreeNode root) {
             List<Integer> result = new ArrayList<>();
             if (root == null) {

@@ -12,7 +12,7 @@ public class D16TrimBST {
                                 3));
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode trimBST(TreeNode root, int low, int high) {
             if (root == null) {
                 return null;

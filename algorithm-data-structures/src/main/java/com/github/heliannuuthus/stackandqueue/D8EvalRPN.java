@@ -8,7 +8,7 @@ public class D8EvalRPN {
         System.out.println(new Solution().evalRPN(new String[] {"2", "1", "+", "3", "*"}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int evalRPN(String[] tokens) {
             Stack<Integer> stack = new Stack<>();
             for (String token : tokens) {

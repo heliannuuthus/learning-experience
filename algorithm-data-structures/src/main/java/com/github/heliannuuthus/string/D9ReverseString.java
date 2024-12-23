@@ -7,7 +7,7 @@ public class D9ReverseString {
         System.out.println(new String(charArray));
     }
 
-    static class Solution {
+    private static class Solution {
         public void reverseString(char[] s) {
             int left = 0, right = s.length - 1;
             while (left < right) {

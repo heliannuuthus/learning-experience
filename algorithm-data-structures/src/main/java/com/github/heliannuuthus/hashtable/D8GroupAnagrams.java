@@ -7,7 +7,7 @@ public class D8GroupAnagrams {
         System.out.println(new Solution().groupAnagrams(new String[] {"", "", "v"}));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<String>> groupAnagrams(String[] strs) {
             HashMap<String, List<String>> charsets = new HashMap<>();
             for (String str : strs) {

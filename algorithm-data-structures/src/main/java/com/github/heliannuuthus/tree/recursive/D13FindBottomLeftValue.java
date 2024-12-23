@@ -7,7 +7,7 @@ public class D13FindBottomLeftValue {
         System.out.println(new Solution().findBottomLeftValue(TreeNode.build(new Integer[] {0})));
     }
 
-    static class Solution {
+    private static class Solution {
 
         private static int result = 0;
         private static int maxDepth = -1;

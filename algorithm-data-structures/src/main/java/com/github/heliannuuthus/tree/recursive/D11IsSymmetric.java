@@ -9,7 +9,7 @@ public class D11IsSymmetric {
                 new Solution().isSymmetric(TreeNode.build(new Integer[] {1, 2, 2, 3, 4, 4, 3})));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean isSymmetric(TreeNode root) {
             return compare(root.left, root.right);
         }

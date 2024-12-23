@@ -16,7 +16,7 @@ public class D13PathSum {
                                 22));
     }
 
-    static class Solution {
+    private static class Solution {
 
         List<List<Integer>> result = new ArrayList<>();
 

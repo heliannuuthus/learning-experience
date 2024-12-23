@@ -10,7 +10,7 @@ public class D8Intersection {
                         new Solution().intersection(new int[] {1, 2, 2, 1}, new int[] {2, 2})));
     }
 
-    static class Solution {
+    private static class Solution {
         public int[] intersection(int[] nums1, int[] nums2) {
             if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0) {
                 return new int[0];

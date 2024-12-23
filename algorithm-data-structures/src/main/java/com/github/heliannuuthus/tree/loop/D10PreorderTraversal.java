@@ -14,7 +14,7 @@ public class D10PreorderTraversal {
                                 TreeNode.build(new Integer[] {1, null, 2, null, null, 3, null})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> preorderTraversal(TreeNode root) {
             List<Integer> result = new ArrayList<>();
             Stack<TreeNode> stack = new Stack<>();

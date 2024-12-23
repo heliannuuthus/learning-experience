@@ -6,7 +6,7 @@ public class D3MinSubArrayLen {
         System.out.println(new Solution().minSubArrayLen(7, new int[] {2, 3, 1, 2, 4, 3}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int minSubArrayLen(int target, int[] nums) {
             int length = nums.length + 1, left = 0, sum = 0;
             for (int right = 0; right < nums.length; right++) {

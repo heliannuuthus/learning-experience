@@ -10,7 +10,7 @@ public class D12BinaryTreePaths {
                 new Solution().binaryTreePaths(TreeNode.build(new Integer[] {1, 2, 3, null, 5})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<String> binaryTreePaths(TreeNode root) {
             List<String> result = new ArrayList<>();
             if (root == null) {

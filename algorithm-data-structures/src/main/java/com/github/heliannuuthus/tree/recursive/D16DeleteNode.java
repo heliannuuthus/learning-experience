@@ -9,7 +9,7 @@ public class D16DeleteNode {
                         .deleteNode(TreeNode.build(new Integer[] {5, 3, 6, 2, 4, null, 7}), 3));
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode deleteNode(TreeNode root, int key) {
             if (root == null) {
                 return null;

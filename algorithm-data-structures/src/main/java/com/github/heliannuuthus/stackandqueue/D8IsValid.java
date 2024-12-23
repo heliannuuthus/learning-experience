@@ -6,7 +6,7 @@ public class D8IsValid {
         System.out.println(new Solution().isValid("()[]{}"));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean isValid(String s) {
             char[] store = new char[s.length()];
             char[] chars = s.toCharArray();

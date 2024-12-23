@@ -9,7 +9,7 @@ public class D15GetMinimumDifference {
                 new Solution().getMinimumDifference(TreeNode.build(new Integer[] {4, 2, 6, 1, 3})));
     }
 
-    static class Solution {
+    private static class Solution {
         TreeNode pre = null;
         int min = Integer.MAX_VALUE;
 

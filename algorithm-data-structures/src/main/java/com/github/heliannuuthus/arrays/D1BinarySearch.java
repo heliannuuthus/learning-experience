@@ -7,7 +7,7 @@ public class D1BinarySearch {
     }
 
     // binary search method2
-    static class Solution {
+    private static class Solution {
         public int search(int[] nums, int target) {
             int left = 0, right = nums.length - 1;
             // 处于左闭右闭的场景，left == right 是有意义的（是存在的）
@@ -27,7 +27,7 @@ public class D1BinarySearch {
     }
 
     // binary search method2
-    static class Solution1 {
+    private static class Solution1 {
         public int search(int[] nums, int target) {
             int left = 0, right = nums.length;
             // 处于左闭右开的场景，left == right 是没有意义的（是不存在的）

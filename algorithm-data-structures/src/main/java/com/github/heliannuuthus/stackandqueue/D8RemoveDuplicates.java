@@ -6,7 +6,7 @@ public class D8RemoveDuplicates {
         System.out.println(new Solution().removeDuplicates("abbaca"));
     }
 
-    static class Solution {
+    private static class Solution {
         public String removeDuplicates(String s) {
             char[] chars = s.toCharArray();
             int left = 0, right = 0;

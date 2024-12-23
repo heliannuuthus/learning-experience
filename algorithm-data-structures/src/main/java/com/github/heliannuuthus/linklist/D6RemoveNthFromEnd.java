@@ -6,7 +6,7 @@ public class D6RemoveNthFromEnd {
                 new Solution().removeNthFromEnd(ListNode.build(new int[] {1, 2, 3, 4}), 2));
     }
 
-    static class Solution {
+    private static class Solution {
         public ListNode removeNthFromEnd(ListNode head, int n) {
             ListNode dummy = new ListNode(0), fast = dummy, slow = dummy;
             dummy.next = head;

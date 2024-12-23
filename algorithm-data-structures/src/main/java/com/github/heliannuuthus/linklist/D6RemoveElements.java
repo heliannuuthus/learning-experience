@@ -2,7 +2,7 @@ package com.github.heliannuuthus.linklist;
 
 public class D6RemoveElements {
 
-    static class Solution {
+    private static class Solution {
         public ListNode removeElements(ListNode head, int val) {
             // 去掉头部
             while (head != null && head.val == val) {

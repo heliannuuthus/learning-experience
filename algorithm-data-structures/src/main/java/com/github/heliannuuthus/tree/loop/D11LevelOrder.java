@@ -13,7 +13,7 @@ public class D11LevelOrder {
                         .levelOrder(TreeNode.build(new Integer[] {3, 9, 20, null, null, 15, 7})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> levelOrder(TreeNode root) {
             Deque<Object[]> queue = new ArrayDeque<>();
             List<List<Integer>> result = new ArrayList<>();

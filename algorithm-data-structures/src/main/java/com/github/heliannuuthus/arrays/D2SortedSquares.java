@@ -9,7 +9,7 @@ public class D2SortedSquares {
                 Arrays.toString(new Solution().sortedSquares(new int[] {-4, -1, 0, 3, 10})));
     }
 
-    static class Solution {
+    private static class Solution {
 
         // 左右指针开始遍历
         public int[] sortedSquares(int[] nums) {

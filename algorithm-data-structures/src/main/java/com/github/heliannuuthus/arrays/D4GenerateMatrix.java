@@ -7,7 +7,7 @@ public class D4GenerateMatrix {
         System.out.println(Arrays.deepToString(new Solution().generateMatrix(4)));
     }
 
-    static class Solution {
+    private static class Solution {
         public int[][] generateMatrix(int n) {
             int[][] matrix = new int[n][n];
             int nums = 1, t = 0, r = n - 1, b = n - 1, l = 0;

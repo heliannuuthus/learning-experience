@@ -11,7 +11,7 @@ public class D11LevelOrder2 {
                         .levelOrder(MultiNode.build(new Integer[] {1, null, 3, 2, 4, null, 5, 6})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> levelOrder(MultiNode root) {
             List<List<Integer>> result = new ArrayList<>();
             if (root == null) {

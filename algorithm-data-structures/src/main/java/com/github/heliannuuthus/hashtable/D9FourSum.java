@@ -10,7 +10,7 @@ public class D9FourSum {
         System.out.println(new Solution().fourSum(new int[] {1, 1, 1, 1, 1}, 4));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> fourSum(int[] nums, int target) {
             Arrays.sort(nums);
             List<List<Integer>> res = new ArrayList<>();

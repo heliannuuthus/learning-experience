@@ -5,7 +5,7 @@ public class D2RemoveDuplicates {
         System.out.println(new Solution().removeDuplicates(new int[] {1, 2, 3, 4, 5}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int removeDuplicates(int[] nums) {
             int i = 0, j = i + 1;
             while (i < nums.length && j < nums.length) {

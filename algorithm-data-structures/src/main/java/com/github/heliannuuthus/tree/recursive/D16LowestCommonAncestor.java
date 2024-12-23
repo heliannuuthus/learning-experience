@@ -13,7 +13,7 @@ public class D16LowestCommonAncestor {
                                 new TreeNode(10)));
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
             if (root == null || p.val == root.val || q.val == root.val) {
                 return root;

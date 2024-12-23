@@ -10,7 +10,7 @@ public class D7IntersectionNode {
                                 ListNode.build(new int[] {5, 0, 1, 8, 4, 5})));
     }
 
-    static class Solution {
+    private static class Solution {
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
             ListNode current = headA;

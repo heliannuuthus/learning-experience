@@ -8,7 +8,7 @@ public class D9ReverseWords {
         System.out.println(new Solution().reverseWords("   fffff ff gg ee"));
     }
 
-    static class Solution {
+    private static class Solution {
         public String reverseWords(String s) {
             char[] chars = s.toCharArray();
             int left = 0, right = chars.length - 1;

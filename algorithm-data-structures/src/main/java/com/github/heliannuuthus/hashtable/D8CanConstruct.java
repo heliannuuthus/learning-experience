@@ -6,7 +6,7 @@ public class D8CanConstruct {
         System.out.println(new Solution().canConstruct("aa", "aab"));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean canConstruct(String ransomNote, String magazine) {
             int[] chars = new int[26];
 

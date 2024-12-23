@@ -12,7 +12,7 @@ public class D14BuildTreePreAndInOrder {
                                 new int[] {14, 9, 12, 3, 15, 20, 7}));
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode buildTree(int[] preorder, int[] inorder) {
             return split(preorder, 0, preorder.length, inorder, 0, inorder.length);
         }

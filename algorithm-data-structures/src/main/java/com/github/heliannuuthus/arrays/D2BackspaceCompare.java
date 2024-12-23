@@ -6,7 +6,7 @@ public class D2BackspaceCompare {
         System.out.println(new Solution().backspaceCompare("bbbextm", "bbb#extm"));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean backspaceCompare(String s, String t) {
             int i = s.length() - 1, j = t.length() - 1, icount = 0, jcount = 0;
             while (i >= 0 || j >= 0) {

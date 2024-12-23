@@ -14,7 +14,7 @@ public class D10InorderTraversal {
                                 TreeNode.build(new Integer[] {1, null, 2, null, null, 3, null})));
     }
 
-    static class Solution {
+    private static class Solution {
 
         public List<Integer> inorderTraversal(TreeNode root) {
             Stack<TreeNode> stack = new Stack<>();

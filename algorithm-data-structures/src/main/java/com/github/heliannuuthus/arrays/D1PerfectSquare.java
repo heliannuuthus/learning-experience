@@ -5,7 +5,7 @@ public class D1PerfectSquare {
         System.out.println(new Solution().isPerfectSquare(14));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean isPerfectSquare(int num) {
             int left = 0, right = num;
             while (left <= right) {

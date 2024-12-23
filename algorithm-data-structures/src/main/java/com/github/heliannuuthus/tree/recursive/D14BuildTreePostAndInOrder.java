@@ -8,7 +8,7 @@ public class D14BuildTreePostAndInOrder {
         System.out.println(new Solution().buildTree(new int[] {1, 2}, new int[] {2, 1}));
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode buildTree(int[] inorder, int[] postorder) {
             return split(inorder, 0, inorder.length, postorder, 0, postorder.length);
         }

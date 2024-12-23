@@ -15,7 +15,7 @@ public class D11MinDepth {
                                         })));
     }
 
-    static class Solution {
+    private static class Solution {
         public int minDepth(TreeNode root) {
             if (root == null) {
                 return 0;

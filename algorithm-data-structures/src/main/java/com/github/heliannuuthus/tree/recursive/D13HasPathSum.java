@@ -14,7 +14,7 @@ public class D13HasPathSum {
                                 22));
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean hasPathSum(TreeNode root, int targetSum) {
             if (root == null) {
                 return false;

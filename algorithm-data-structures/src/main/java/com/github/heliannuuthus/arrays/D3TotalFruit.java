@@ -5,7 +5,7 @@ public class D3TotalFruit {
         System.out.println(new Solution().totalFruit(new int[] {3, 3, 3, 1, 2, 1, 1, 2, 3, 3, 4}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int totalFruit(int[] fruits) {
             int[] types = new int[fruits.length];
             int count = 0, j = 0, typeLength = -1;

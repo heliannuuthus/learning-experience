@@ -11,7 +11,7 @@ public class D9MaxSlidingWindow {
                 Arrays.toString(new Solution().maxSlidingWindow(new int[] {1, 3, 1, 2, 0, 5}, 3)));
     }
 
-    static class Solution {
+    private static class Solution {
         public int[] maxSlidingWindow(int[] nums, int k) {
             int[] result = new int[nums.length - k + 1];
             Deque<Integer> monotonousQueue = new ArrayDeque<>();

@@ -12,7 +12,7 @@ public class D11LargestValues {
                         .largestValues(TreeNode.build(new Integer[] {1, 3, 2, 5, 3, null, 9})));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<Integer> largestValues(TreeNode root) {
             List<Integer> result = new ArrayList<>();
             bfs(root, 0, result);

@@ -1,13 +1,11 @@
 package com.github.heliannuuthus.greedy;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 
 public class D26BestTimeToBuyAndSellStockIII {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().maxProfit(new int[]{1, 2, 4, 2, 5, 7, 2, 4, 9, 0}));
+        System.out.println(new Solution().maxProfit(new int[] {1, 2, 4, 2, 5, 7, 2, 4, 9, 0}));
     }
 
     private static class Solution {

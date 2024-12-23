@@ -4,7 +4,6 @@ import com.github.heliannuuthus.tree.TreeNode;
 
 public class D25BinaryTreeCameras {
 
-
     private static class Solution {
         int result = 0;
 
@@ -14,7 +13,6 @@ public class D25BinaryTreeCameras {
             }
             return result;
         }
-
 
         private int dfs(TreeNode root) {
             if (root == null) {
@@ -40,6 +38,4 @@ public class D25BinaryTreeCameras {
             return -1;
         }
     }
-
-
 }

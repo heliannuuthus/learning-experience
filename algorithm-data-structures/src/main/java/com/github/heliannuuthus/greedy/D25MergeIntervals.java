@@ -7,13 +7,15 @@ import java.util.List;
 public class D25MergeIntervals {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.deepToString(new Solution().merge(new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}})));
+        System.out.println(
+                Arrays.deepToString(
+                        new Solution().merge(new int[][] {{1, 3}, {2, 6}, {8, 10}, {15, 18}})));
     }
 
     private static class Solution {
         public int[][] merge(int[][] intervals) {
             if (intervals == null || intervals.length == 0) {
-                return new int[][]{};
+                return new int[][] {};
             }
             Arrays.sort(intervals, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
             List<int[]> mergedIntervals = new ArrayList<>();

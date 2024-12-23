@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class D27MinCostClimbingStairs {
 
     public static void main(String[] args) {
-        System.out.println(new Solution().minCostClimbingStairs(new int[]{10, 15, 20}));
+        System.out.println(new Solution().minCostClimbingStairs(new int[] {10, 15, 20}));
     }
 
     private static class Solution {
